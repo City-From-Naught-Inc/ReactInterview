@@ -1,0 +1,410 @@
+{
+  "buildingDefinitions": [
+    {
+      "type": "Warehouse",
+      "category": "Logistics",
+      "availableRecipeTypes": null,
+      "requirement": [
+        {
+          "itemType": "MetalPlate",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "type": "Drone",
+      "category": "Automatons",
+      "availableRecipeTypes": null,
+      "requirement": [
+        {
+          "itemType": "Drone",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "type": "Drone_Miner",
+      "category": "Automatons",
+      "availableRecipeTypes": null,
+      "requirement": [
+        {
+          "itemType": "Drone",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "type": "Smelter",
+      "category": "Production",
+      "availableRecipeTypes": [
+        "MetalPlate",
+        "RefinedCrystal",
+        "ThermoPlate"
+      ],
+      "requirement": [
+        {
+          "itemType": "MetalOre",
+          "quantity": 2
+        },
+        {
+          "itemType": "CrystalShards",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "type": "GeneralFactory",
+      "category": "Production",
+      "availableRecipeTypes": [
+        "CrystalCompound",
+        "CortexChip",
+        "SimpleKit",
+        "AirshipFuel_Mk1",
+        "EnergyCell"
+      ],
+      "requirement": [
+        {
+          "itemType": "MetalPlate",
+          "quantity": 4
+        },
+        {
+          "itemType": "RefinedCrystal",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "type": "AdvancedFactory",
+      "category": "Production",
+      "availableRecipeTypes": [
+        "ComputeCore"
+      ],
+      "requirement": [
+        {
+          "itemType": "CortexChip",
+          "quantity": 4
+        },
+        {
+          "itemType": "ThermoPlate",
+          "quantity": 2
+        },
+        {
+          "itemType": "SimpleKit",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "type": "WeaponFactory",
+      "category": "Production",
+      "availableRecipeTypes": [
+        "Dynamite"
+      ],
+      "requirement": [
+        {
+          "itemType": "MetalPlate",
+          "quantity": 5
+        },
+        {
+          "itemType": "SimpleKit",
+          "quantity": 2
+        },
+        {
+          "itemType": "ThermoPlate",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "type": "PowerFactory",
+      "category": "Production",
+      "availableRecipeTypes": [
+        "EnergyCell"
+      ],
+      "requirement": [
+        {
+          "itemType": "MetalPlate",
+          "quantity": 5
+        },
+        {
+          "itemType": "RefinedCrystal",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "type": "NaturalGasProcessor",
+      "category": "Production",
+      "availableRecipeTypes": [
+        "NaturalGasProcessor"
+      ],
+      "requirement": [
+        {
+          "itemType": "MetalPlate",
+          "quantity": 5
+        },
+        {
+          "itemType": "SimpleKit",
+          "quantity": 5
+        },
+        {
+          "itemType": "CortexChip",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "type": "SupplyDrop",
+      "category": "Resources",
+      "availableRecipeTypes": null,
+      "requirement": []
+    },
+    {
+      "type": "AutomatonFactory",
+      "category": "Production",
+      "availableRecipeTypes": [
+        "Drone"
+      ],
+      "requirement": []
+    },
+    {
+      "type": "GasExtractor_ChoiceA",
+      "category": "Expedition",
+      "availableRecipeTypes": null,
+      "requirement": [
+        {
+          "itemType": "MetalPlate",
+          "quantity": 200
+        },
+        {
+          "itemType": "EnergyCell",
+          "quantity": 40
+        },
+        {
+          "itemType": "Dynamite",
+          "quantity": 25
+        },
+        {
+          "itemType": "Drone",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "type": "NuclearReactor",
+      "category": "Production",
+      "availableRecipeTypes": null,
+      "requirement": [
+        {
+          "itemType": "MetalPlate",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "type": "Centrifuge",
+      "category": "Production",
+      "availableRecipeTypes": [
+        "FissionFuel"
+      ],
+      "requirement": [
+        {
+          "itemType": "MetalPlate",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "type": "BreakableWall_ChoiceA",
+      "category": "Expedition",
+      "availableRecipeTypes": null,
+      "requirement": [
+        {
+          "itemType": "Dynamite",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "type": "SupplyDrop",
+      "category": "Expedition",
+      "availableRecipeTypes": null,
+      "requirement": [
+        {
+          "itemType": "MetalPlate",
+          "quantity": 5
+        },
+        {
+          "itemType": "OvercookedLettuce",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "type": "OvercookedChoppingBoard",
+      "category": "Cooking",
+      "availableRecipeTypes": null,
+      "requirement": [
+        {
+          "itemType": "MetalPlate",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "type": "OvercookedDishMaker",
+      "category": "Cooking",
+      "availableRecipeTypes": [
+        "OvercookedLettuceDish",
+        "OvercookedSalad"
+      ],
+      "requirement": [
+        {
+          "itemType": "MetalPlate",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "type": "PowerPole",
+      "category": "Power",
+      "availableRecipeTypes": null,
+      "requirement": [
+        {
+          "itemType": "MetalPlate",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "type": "Drone_Truck",
+      "category": "Logistics",
+      "availableRecipeTypes": null,
+      "requirement": [
+        {
+          "itemType": "MetalPlate",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "type": "InfinitePowerPlant",
+      "category": "Power",
+      "availableRecipeTypes": null,
+      "requirement": [
+        {
+          "itemType": "MetalPlate",
+          "quantity": 10
+        },
+        {
+          "itemType": "RefinedCrystal",
+          "quantity": 25
+        },
+        {
+          "itemType": "EnergyCell",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "type": "OneWayBarrier_ChoiceA",
+      "category": "Expedition",
+      "availableRecipeTypes": null,
+      "requirement": [
+        {
+          "itemType": "Dynamite",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "type": "Drone_Combat",
+      "category": "Automatons",
+      "availableRecipeTypes": null,
+      "requirement": [
+        {
+          "itemType": "Drone",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "type": "SmelterTutorial",
+      "category": "Production",
+      "availableRecipeTypes": [
+        "MetalPlate_Alt"
+      ],
+      "requirement": []
+    },
+    {
+      "type": "PowerPlant",
+      "category": "Power",
+      "availableRecipeTypes": null,
+      "requirement": [
+        {
+          "itemType": "EnergyCell",
+          "quantity": 5
+        },
+        {
+          "itemType": "ThermoPlate",
+          "quantity": 5
+        },
+        {
+          "itemType": "CortexChip",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "type": "NeutrinoPlant",
+      "category": "Power",
+      "availableRecipeTypes": null,
+      "requirement": []
+    },
+    {
+      "type": "Higgsy",
+      "category": "Expedition",
+      "availableRecipeTypes": [
+        "QuantumSciencePack"
+      ],
+      "requirement": []
+    },
+    {
+      "type": "AirshipHub",
+      "category": "Logistics",
+      "availableRecipeTypes": null,
+      "requirement": [
+        {
+          "itemType": "Helium",
+          "quantity": 50
+        },
+        {
+          "itemType": "ThermoPlate",
+          "quantity": 100
+        }
+      ]
+    },
+    {
+      "type": "Drone_FlyingMover",
+      "category": "Automatons",
+      "availableRecipeTypes": null,
+      "requirement": [
+        {
+          "itemType": "Drone",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "type": "AirshipStockpile",
+      "category": "Logistics",
+      "availableRecipeTypes": null,
+      "requirement": [
+        {
+          "itemType": "MetalPlate",
+          "quantity": 5
+        }
+      ]
+    }
+  ]
+}
